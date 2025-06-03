@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comatible"
+        content="IE-edge">
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+        <title>document</title>
+        <style>
+            body {
+              margin: 0;
+              padding: 0;
+              width: 370px;
+              height: 420px;
+              box-sizing: border-box;
+            }
+          </style>
+    </head>
+    <body>
+        <style>
+            input {
+                width: 50px;
+                height: 50px;
+                font-size: 40px;
+                text-align: center;
+            }
+            h1 {
+                text-align: center;
+            }
+        </style>
+        <h1>Wordle</h1>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <p style="margin: 0;">All answers in lowercase</p>
+            <button id="reset">Reset</button>
+        </div>
+        <input class="input" maxlength="1">
+        <input class="input" maxlength="1">
+        <input class="input" maxlength="1">
+        <input class="input" maxlength="1">
+        <input class="input" maxlength="1">
+        <button id="submit">Submit</button> 
+
+        <script src="wordle.js"></script>
+    </body>
+</html>

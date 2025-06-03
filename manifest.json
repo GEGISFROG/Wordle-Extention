@@ -1,0 +1,11 @@
+{
+    "manifest_version" : 3,
+    "name" : "Wordle Extention",
+    "description": "Worlde",
+    "version" : "1.0",
+    "action" : {
+        "default_title": "Wordle Extention",
+        "default_popup": "index.html"
+        }
+    
+}
